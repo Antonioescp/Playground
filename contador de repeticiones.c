@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 #define LENGTH 10
 
@@ -9,7 +8,7 @@ void main(){
 	
 	srand(time(NULL)); /* semilla en base al tiempo actual de tu pc */
 	
-	int numeros[LENGTH], contador[LENGTH], i, j, num, total;
+	int numeros[LENGTH], contador[LENGTH], i, num, total;
 	
 	for(i = 0; i < LENGTH; i++){ /* iniciamos el contador en 0 */
 		contador[i] = 0;
