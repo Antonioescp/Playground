@@ -16,7 +16,7 @@ void main(){
 	}
 	
 	for(i=0;i<LENGTH;i++){ /* numeros se repiten en pares */
-		if(i % 2 == 0 || i == 0){
+		if(i % 2 == 0){
 			num = rand() % 300 + 1;
 		}
 		numeros[i] = num;
