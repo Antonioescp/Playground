@@ -39,8 +39,7 @@ void main(){
 			contador[num]++; /* no nos olvidemos de contar */
 		}
 	}
-	total = num + 1; /* guardamos cuantos numeros hay en total */
-	num = 0; /* de nuevo, iterador del contador */
+	total = num + 1; /* guardamos cuantos numeros unicos hay en total */
 	
 	printf("\tNumeros en arreglo\n");
 	
@@ -53,7 +52,7 @@ void main(){
 		printf("%d\n", contador[i]);
 	}
 	
-	num = 0;
+	num = 0; /* para iterar en numeros */
 	
 	printf("\tMostrar info\n");
 	
